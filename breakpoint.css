@@ -1,0 +1,67 @@
+@media screen and (max-width:768px) {
+
+    #options_span {
+        display: flex;
+    }
+
+    #home_explore_activity_contact_paragraphs_div {
+        display: none;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    #section_title {
+        text-align: center;
+    }
+
+    #starting_xi_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stadium {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .stadium img {
+        width: 100%;
+    }
+
+    .stadium_content {
+        width: 100%;
+    }
+
+    .footer_content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {}
+
+/* 320px 
+480px
+768px
+
+handle flex styles in this breakpoints. fix only the flex. if its necessary change column into flex and opposite. */
